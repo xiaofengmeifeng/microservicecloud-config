@@ -1,0 +1,16 @@
+# 必须保存为UTF-8的格式
+spring:
+  prifiles: 
+    active: 
+    - dev
+--- 
+spring:
+  prifiles: dev # 开发环境
+    application:
+      name: microservicecloud-config-xyz-dev
+
+--- 
+spring:
+  prifiles: test # 测试环境
+    application:
+      name: microservicecloud-config-xyz-test
